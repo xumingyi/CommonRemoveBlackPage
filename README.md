@@ -1,0 +1,2 @@
+# CommonRemoveBlackPage
+去掉android的启动黑画面和状态栏导航栏控制的demo工程。
