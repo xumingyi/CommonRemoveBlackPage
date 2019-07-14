@@ -6,11 +6,11 @@
 <div>
 <img src="capture/1.png" width="30%" />
 <img src="capture/2.png" width="30%" />
-<webview src="capture/冷启动优化.mp4" width="40%" />	
 </div>
 
 
-[Hot reload animation]: capture/冷启动优化.mp4
+[Hot reload animation]: capture/3.gif
+
 
 经过一天的整理和整车机多应用测试，整理出如下三种解决android首次启动黑画的问题，
 下面每个方法都有自己的优点和缺点，根据自己的项目需求和使用场景选择即可，
