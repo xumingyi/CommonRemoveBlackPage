@@ -6,10 +6,8 @@
 <div>
 <img src="capture/1.png" width="30%" />
 <img src="capture/2.png" width="30%" />
+<img src="capture/3.gif" width="30%" />
 </div>
-
-#gif 演示
-[冷启动演示效果]: capture/3.gif
 
 
 经过一天的整理和整车机多应用测试，整理出如下三种解决android首次启动黑画的问题，
