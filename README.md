@@ -3,8 +3,8 @@
 
 #截图
 <div>
-<img src="capture/01.png" width="50%" />
-<img src="capture/02.png" width="50%" />
+<img src="capture/1.png" width="30%" />
+<img src="capture/2.png" width="30%" />
 </div>
 
 经过一天的整理和整车机多应用测试，整理出如下三种解决android首次启动黑画的问题，
