@@ -2,6 +2,7 @@
 去掉android的启动黑画面和状态栏导航栏控制的demo工程。
 
 #截图
+#截图仅仅是展示了状态栏的透明和UI沉浸式效果
 <div>
 <img src="capture/1.png" width="30%" />
 <img src="capture/2.png" width="30%" />
