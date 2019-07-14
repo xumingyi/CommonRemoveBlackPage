@@ -2,10 +2,11 @@
 去掉android的启动黑画面和状态栏导航栏控制的demo工程。
 
 #截图
-#截图仅仅是展示了状态栏的透明和UI沉浸式效果
+仅仅是展示了状态栏的透明和UI沉浸式效果
 <div>
 <img src="capture/1.png" width="30%" />
 <img src="capture/2.png" width="30%" />
+<img src="capture/冷启动优化.mp4" width="100%" />	
 </div>
 
 经过一天的整理和整车机多应用测试，整理出如下三种解决android首次启动黑画的问题，
