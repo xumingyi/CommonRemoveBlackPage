@@ -4,13 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/common_page_bg"
     tools:context=".MainActivity">
 
     <TextView
         android:id="@+id/test_id"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World2222!"
+        android:text="第二个页面"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"

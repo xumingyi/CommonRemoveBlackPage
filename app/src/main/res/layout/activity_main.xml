@@ -13,7 +13,7 @@
         android:id="@+id/test_id"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:text="首页面"
         android:textSize="30sp"
         android:layout_centerHorizontal="true"
         android:layout_alignParentTop="true"/>
