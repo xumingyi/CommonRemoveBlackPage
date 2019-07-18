@@ -2,11 +2,18 @@
 去掉android的启动黑画面和状态栏导航栏控制的demo工程。
 
 ### 截图：
-gif图展示了android冷启动的过程，没有任何黑画和白画效果，直接进入了程序。两张演示demo是沉浸式状态栏效果，你过你想不显示状态栏和导航栏只要在主题中设置下全屏即可
+gif图展示了android冷启动的过程，没有任何黑画和白画效果，直接进入了程序。两张演示demo是沉浸式状态栏效果，你过你想不显示状态栏和导航栏只要在主题中设置下全屏即可.
+
+#### 截图方案1：
 <div>
 <img src="capture/1.png" width="30%" />
 <img src="capture/2.png" width="30%" />
-<img src="capture/3.gif" width="30%" />
+<img src="capture/方案1-demo.gif" width="30%" />
+</div>
+
+#### 截图方案2：
+<div>
+<img src="capture/方案2-demo.gif width="30%" />
 </div>
 
 ### 方案说明：

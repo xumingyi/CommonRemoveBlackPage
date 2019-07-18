@@ -46,7 +46,7 @@
     -->
     <style name="AppCommonBgTheme" parent="AppCompatNoActionBarTheme">
         <item name="android:windowContentOverlay">@null</item>
-        <!--<item name="android:windowBackground">@drawable/common_page_bg</item>-->
+        <item name="android:windowBackground">@drawable/common_page_bg</item>
     </style>
     <!-- 方案二.去掉黑屏白屏展示的方案 结束 -->
     
