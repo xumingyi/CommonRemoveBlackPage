@@ -13,7 +13,7 @@ gif图展示了android冷启动的过程，没有任何黑画和白画效果，�
 
 #### 截图方案2：
 <div>
-<img src="capture/方案2-demo.gif width="30%" />
+<img src="capture/方案2-demo.gif" width="100%" />
 </div>
 
 ### 方案说明：
