@@ -1,5 +1,5 @@
 # CommonRemoveBlackPage
-去掉android的启动黑画面和状态栏导航栏控制的demo工程。
+解决android冷启动黑画面的问题的一个综合解决方案，附带状态栏导航栏控制的demo工程。 同时实现了微信splash页面只启动一次的效果，splash页面还可以继续去做初始化框架和各种第三方库的操作。
 
 ### 截图：
 gif图展示了android冷启动的过程，没有任何黑画和白画效果，直接进入了程序。两张演示demo是沉浸式状态栏效果，你过你想不显示状态栏和导航栏只要在主题中设置下全屏即可.
@@ -15,7 +15,7 @@ gif图展示了android冷启动的过程，没有任何黑画和白画效果，�
 <div>
 <img src="capture/方案2-demo.gif" width="30%" />
 <img src="capture/方案3-error-demo.gif" width="30%" />
-<img src="capture/方案3-demo.gif" width="30%" />
+<img src="capture/方案3-正确使用demo.gif" width="30%" />
 </div>
 
 ### 方案说明：

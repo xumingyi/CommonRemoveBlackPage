@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">My Application</string>
+
+    <string name="app_share_package">com.example.myapplication</string>
 </resources>

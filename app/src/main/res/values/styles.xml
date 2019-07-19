@@ -74,12 +74,12 @@
     <style name="MainActivityTransTheme" parent="AppCompatNoActionBarTheme">
         <item name="android:windowBackground">@android:color/transparent</item>
         <item name="android:windowContentOverlay">@null</item>//是否有遮盖
-        <item name="android:windowIsTranslucent">true</item>  //启动动画为透明，这个是实现去掉黑白也的关键设置
     </style>
     
     <!-- Splash活动或者广告页 主题 -->
     <style name="SplashActivityTransTheme" parent="MainActivityTransTheme">
         <item name="android:windowFullscreen">true</item>//全屏即无通知栏
+        <item name="android:windowIsTranslucent">true</item>  //启动动画为透明，这个是实现去掉黑白也的关键设置
     </style>
     <!-- 方案三.去掉黑屏白屏展示的方案 结束 -->
 

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/common_page_bg"
+    android:fitsSystemWindows="true"
+    android:clipToPadding="true"
+    tools:context=".SplashActivity">
+
+    <TextView
+        android:id="@+id/test_id_sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="过度动画页面"
+        android:textSize="30sp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"/>
+
+</RelativeLayout>
