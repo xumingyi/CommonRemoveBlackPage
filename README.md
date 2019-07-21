@@ -18,6 +18,23 @@ gif图展示了android冷启动的过程，没有任何黑画和白画效果，�
 <img src="capture/方案3-正确使用demo.gif" width="30%" />
 </div>
 
+#### 版本说明，分别展示每个方案的代码版本
+
+##### 方案一代码,demo，gif的版本。
+<span>
+<img src="capture/方案1-demo-code-flag.png" width="100%" />
+</span>
+
+##### 方案二代码,demo，gif的版本。
+<span>
+<img src="capture/方案2-demo-code-flag.png" width="100%" />
+</span>
+
+##### 方案三代码,demo，gif的版本。
+<span>
+<img src="capture/方案3-正确使用demo-code-flag.png" width="100%" />
+</span>
+
 ### 方案说明：
 经过一天的整理和整车机多应用测试，整理出如下三种解决android首次启动黑画的问题，
 下面每个方法都有自己的优点和缺点，根据自己的项目需求和使用场景选择即可，
@@ -98,14 +115,16 @@ gif图展示了android冷启动的过程，没有任何黑画和白画效果，�
     <style name="MainActivityTransTheme" parent="AppCompatNoActionBarTheme">
         <item name="android:windowBackground">@android:color/transparent</item>
         <item name="android:windowContentOverlay">@null</item>//是否有遮盖
-        <item name="android:windowIsTranslucent">true</item>  //启动动画为透明，这个是实现去掉黑白也的关键设置
     </style>
     
     <!-- Splash活动或者广告页 主题 -->
     <style name="SplashActivityTransTheme" parent="MainActivityTransTheme">
         <item name="android:windowFullscreen">true</item>//全屏即无通知栏
+        <item name="android:windowIsTranslucent">true</item>  //启动动画为透明，这个是实现去掉黑白也的关键设置
     </style>
     <!-- 方案三.去掉黑屏白屏展示的方案 结束 -->
+    
+    
     
     
  ### 参考：   
