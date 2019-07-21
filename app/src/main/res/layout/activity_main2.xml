@@ -5,13 +5,25 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/common_page_bg"
+    android:fitsSystemWindows="true"
+    android:clipToPadding="true"
     tools:context=".SubActivity">
+
+    <com.example.myapplication.widgethelper.navigation.NavigationBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        app:title_text="子页面"
+        app:left_button_visible="true"
+        app:left_button_drawable="@drawable/common_back_selector"
+        />
 
     <TextView
         android:id="@+id/test_id_sub"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="第二个页面"
+        android:textSize="25dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"

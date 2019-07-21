@@ -2,24 +2,31 @@ package com.example.myapplication;
 
 import android.content.Context;
 import android.content.Intent;
-import android.graphics.Color;
 import android.os.Bundle;
 import android.view.KeyEvent;
 import android.view.View;
 import android.widget.Toast;
 
-import com.example.myapplication.Utils.SpUtils;
+import com.example.myapplication.widgethelper.BaseActivity;
+
+import butterknife.ButterKnife;
+import butterknife.OnClick;
+import butterknife.Unbinder;
 
 public class MainActivity extends BaseActivity {
 
     private Context mContext;
     private long exitTime;
+    private Unbinder mUnbinder;
+
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         mContext = this;
-
+        mUnbinder = ButterKnife.bind(this);
         findViewById(R.id.test_id).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -27,9 +34,13 @@ public class MainActivity extends BaseActivity {
                         SubActivity.class));
             }
         });
-
     }
 
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        mUnbinder.unbind();
+    }
 
     /**
      * 重写返回键
@@ -55,6 +66,22 @@ public class MainActivity extends BaseActivity {
         return super.onKeyDown(keyCode, event);
     }
 
-
+    /**
+     * On click.
+     *
+     * @param v the v
+     */
+    @OnClick({R.id.title_bar_left_ll, R.id.title_bar_title})
+    public void onClick(View v){
+        switch (v.getId()){
+            case R.id.title_bar_left_ll:
+                finish();
+                break;
+            case R.id.title_bar_title:
+                break;
+            default:
+                break;
+        }
+    }
 
 }

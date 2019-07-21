@@ -25,3 +25,38 @@ allprojects {
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
+
+ext {
+    // Sdk and tools
+    compileSdkVersion = 28
+    minSdkVersion = 23
+    targetSdkVersion = 27
+    buildToolsVersion='28.0.2'
+
+    // App dependencies
+    junitVersion ='4.12'
+    androidTestRunner ='1.0.2'
+    androidTestEspressoCore ='3.0.2'
+    androidSupportVersion ='28.0.0'
+    multidexSupportVersion ='1.0.2'
+    constraintLayoutSupportVersion ='1.1.0'
+    applicationId ='com.saleenauto.mine'
+    versionCode ='1'
+    versionName ='0.4.8'
+    dbflowvVersion ='4.2.4'
+
+    // app_role_level DEV:0; RELEASE_FOR_TEST:1; RELEASE_FOR_CLIENT:2; ON_LINE:3
+    appRoleLevel = 0
+
+    butterknifeVersion='8.8.1'
+    gsonVersion = '2.8.5'
+    tinypinyinVersion = "2.0.3"
+    lifecycleVersion = "1.1.1"
+    agentwebVersion = "4.0.3-beta"
+    justsonDownloaderVersion = "v4.0.3"
+
+    glideVersion = "4.9.0"
+    leakcanaryVersion = "1.3"
+
+}
+

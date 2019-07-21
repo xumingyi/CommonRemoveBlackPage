@@ -1,4 +1,4 @@
-package com.example.myapplication;
+package com.example.myapplication.widgethelper;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;

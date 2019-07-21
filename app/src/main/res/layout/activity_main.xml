@@ -9,13 +9,21 @@
     android:clipToPadding="true"
     tools:context=".MainActivity">
 
+    <com.example.myapplication.widgethelper.navigation.NavigationBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        app:title_text="首页面"
+        app:left_button_visible="true"
+        app:left_button_drawable="@drawable/common_back_selector"
+        />
+
     <TextView
         android:id="@+id/test_id"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="首页面"
-        android:textSize="30sp"
-        android:layout_centerHorizontal="true"
-        android:layout_alignParentTop="true"/>
+        android:text="跳转子页面"
+        android:textSize="25dp"
+        android:layout_centerInParent="true"/>
 
 </RelativeLayout>

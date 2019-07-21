@@ -2,7 +2,6 @@ package com.example.myapplication;
 
 import android.content.Context;
 import android.content.Intent;
-import android.graphics.Color;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
@@ -10,6 +9,9 @@ import android.view.KeyEvent;
 import android.view.View;
 
 import com.example.myapplication.Utils.SpUtils;
+import com.example.myapplication.widgethelper.BaseActivity;
+
+import butterknife.OnClick;
 
 public class SplashActivity extends BaseActivity {
 
@@ -73,5 +75,23 @@ public class SplashActivity extends BaseActivity {
             handler.removeCallbacksAndMessages(null);
         }
         super.onDestroy();
+    }
+
+    /**
+     * On click.
+     *
+     * @param v the v
+     */
+    @OnClick({R.id.title_bar_left_ll, R.id.title_bar_title})
+    public void onClick(View v){
+        switch (v.getId()){
+            case R.id.title_bar_left_ll:
+                finish();
+                break;
+            case R.id.title_bar_title:
+                break;
+            default:
+                break;
+        }
     }
 }
